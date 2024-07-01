@@ -3,10 +3,16 @@ site_url: https://aust-cs-plan.forsakendelusion.online
 site_author: Delusion
 site_description: >-
   AUST计算机求生指南
+
+repo_name: AUST-CS-Plan
+repo_url: https://github.com/ForsakenDelusion/AUST-CS-Plan.git
+
 theme:
   name: material
   language: zh
   custom_dir: overrides
+  icon:
+  repo: fontawesome/brands/github
 
   features:
     - header.autohide
