@@ -1,11 +1,13 @@
-site_name: AUST-CS-PLAN
+site_name: AUST计算机求生指南
 site_url: https://aust-cs-plan.forsakendelusion.online
-site_author: MingLLuo
+site_author: Delusion
+site_description: >-
+  AUST计算机求生指南
 theme:
   name: material
   language: zh
   custom_dir: overrides
-  
+
   features:
     - header.autohide
     - navigation.tracking
