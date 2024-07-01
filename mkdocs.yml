@@ -1,5 +1,6 @@
 site_name: AUST-CS-PLAN
-
+site_url: https://aust-cs-plan.forsakendelusion.online
+site_author: MingLLuo
 theme:
   name: material
   language: zh
