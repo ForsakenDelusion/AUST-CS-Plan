@@ -2,7 +2,7 @@ site_name: AUST-CS-PLAN
 
 theme:
   name: material
-  
+  language: zh
   features:
     - header.autohide
     - navigation.tracking
