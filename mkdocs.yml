@@ -4,6 +4,8 @@ site_author: MingLLuo
 theme:
   name: material
   language: zh
+  custom_dir: overrides
+  
   features:
     - header.autohide
     - navigation.tracking
