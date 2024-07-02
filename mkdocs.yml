@@ -43,3 +43,17 @@ theme:
       toggle:
         icon: material/toggle-switch-off-outline
         name: Switch to light mode
+
+  nav:
+    - 关于我们: "aboutus.md"
+    - 前言&使用指南: "intro.md"
+    - 计算机科学学习路线:
+      - 计算机基础:
+        - 工具: 
+        - 数学基础:
+        - 计算机导论:
+        - 编程基础:
+        - 算法基础:
+      - 基础深入:  
+    - 不同领域的学习路线:
+      - Java:      
