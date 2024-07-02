@@ -7,6 +7,9 @@ site_description: >-
 repo_name: AUST-CS-Plan
 repo_url: https://github.com/ForsakenDelusion/AUST-CS-Plan.git
 
+markdown_extensions:
+  - footnotes
+
 theme:
   name: material
   language: zh
@@ -14,8 +17,7 @@ theme:
   icon:
   repo: fontawesome/brands/github
 
-  markdown_extensions:
-  - footnotes
+  
 
   features:
     - header.autohide
