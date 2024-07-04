@@ -59,7 +59,7 @@ nav:
   - 前言&使用指南: "index.md"
   - 关于我们: "aboutus.md"
   - 计算机科学学习路线: 
-    - CS基础:
+  - CS基础:
       - 编程基础:
         - Python:
           - Python快速上手: "计算机科学学习路线/计算机基础/编程基础/Python/introduction_python.md"
