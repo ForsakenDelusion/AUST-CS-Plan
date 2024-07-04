@@ -8,7 +8,12 @@ repo_name: AUST-CS-Plan
 repo_url: https://github.com/ForsakenDelusion/AUST-CS-Plan.git
 
 markdown_extensions:
+  - attr_list
+  - md_in_html
   - footnotes
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
 
 theme:
   name: material
