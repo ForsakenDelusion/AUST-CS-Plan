@@ -30,6 +30,8 @@ theme:
     - header.autohide
     - navigation.tracking
     - navigation.top
+    - navigation.instant
+    - navigation.sections
     - search.highlight
     - search.share
     - search.suggest
