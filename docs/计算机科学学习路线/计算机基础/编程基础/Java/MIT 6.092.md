@@ -1,5 +1,7 @@
 # MIT 6.092: Introduction To Programming In Java
 
+以下内容选自[csdiy](csdiy.wiki)(感谢)
+
 ## 课程简介
 
 - 所属大学：MIT
