@@ -61,7 +61,7 @@ nav:
       - 编程基础:
         - Python:
           - Python快速上手: "计算机科学学习路线/计算机基础/编程基础/Java/javaSE.md"
-        -Java:
+        - Java:
           - JavaSE基础: "计算机科学学习路线/计算机基础/编程基础/Java/JavaSE.md"
   - Python: "python/introduction_python.md"
   - 不同领域的学习路线:
