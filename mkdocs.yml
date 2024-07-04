@@ -55,9 +55,9 @@ theme:
 
 nav:
   - 前言&使用指南: "index.md"
-  - 关于我们: "aboutus.md" 
+  - 关于我们: "aboutus.md"
   - Python: "python/introduction_python.md"
   - 不同领域的学习路线:
     - Java:
-      - 路线总览: "不同领域的学习路线/Java/roadMap.md"  
-      - JavaSE基础: "不同领域的学习路线/Java/javaSE.md" 
+      - 路线总览: "不同领域的学习路线/Java/roadMap.md"
+      - JavaSE基础: "不同领域的学习路线/Java/javaSE.md"
