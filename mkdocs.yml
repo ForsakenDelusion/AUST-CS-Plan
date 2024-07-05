@@ -66,8 +66,8 @@ nav:
         - Java:
           - JavaSE基础: "计算机科学学习路线/计算机基础/编程基础/Java/javaSE.md"
           - "MIT 6.092: Introduction To Programming In Java": "计算机科学学习路线/计算机基础/编程基础/Java/MIT 6.092.md"
-        - 数据结构与算法:
-          - "CS61B: Data Structures and Algorithms": "计算机科学学习路线/计算机基础/编程基础/Java/UCBCS61B.md"
+      - 数据结构与算法:
+        - "CS61B: Data Structures and Algorithms": "计算机科学学习路线/计算机基础/编程基础/Java/UCBCS61B.md"
   - Python: "python/introduction_python.md"
   - 不同领域的学习路线:
     - Java:
