@@ -11,17 +11,12 @@
 - 涉及语言：JAVA
 
 - 对应的资源:
-
   - [Gitlet测试样例（sp22）](https://zhuanlan.zhihu.com/p/503858776)（感谢null哥）
-
   - [CS61B Gitlet入坑指南 ，附带sp21测试用例](https://zhuanlan.zhihu.com/p/533852291)（感谢）
 
 - 课程页面：
-
   - [最新](https://datastructur.es)
-
   - [2021Spring](https://sp21.datastructur.es/index.html)
-
   - [2018Spring](https://sp18.datastructur.es)
 
 
