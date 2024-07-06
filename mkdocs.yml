@@ -21,10 +21,15 @@ markdown_extensions:
   - pymdownx.caret
   - pymdownx.mark
   - pymdownx.tilde
+    - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
 
 theme:
   name: material
   language: zh
+  palette:
+    accent: indigo
   custom_dir: overrides
   icon:
   repo: fontawesome/brands/github
@@ -45,7 +50,7 @@ theme:
     # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: purple
+      primary: indigo
       toggle:
         icon: material/toggle-switch
         name: Switch to dark mode
@@ -53,7 +58,7 @@ theme:
     # Palette toggle for dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: pink
+      primary: indigo
       toggle:
         icon: material/toggle-switch-off-outline
         name: Switch to light mode
