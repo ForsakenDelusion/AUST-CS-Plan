@@ -13,13 +13,11 @@ statistics: true
     页面总数：{{pages}}  
     总字数：{{words}}  
     代码块行数：{{codes}} 
-
-
     网站运行时间：<span id="web-time"></span>
 
 
 
-    <script>
+<script>
 var _hmt = _hmt || [];
 (function() {
   var hm = document.createElement("script");
