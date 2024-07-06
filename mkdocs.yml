@@ -7,6 +7,9 @@ site_description: >-
 repo_name: AUST-CS-Plan
 repo_url: https://github.com/ForsakenDelusion/AUST-CS-Plan.git
 
+plugins:
+  - search
+  - statistics
 markdown_extensions:
   - attr_list
   - md_in_html
