@@ -42,7 +42,7 @@ theme:
     # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: pink
+      primary: purple
       toggle:
         icon: material/toggle-switch
         name: Switch to dark mode
