@@ -54,7 +54,7 @@
 
 如果你是 Mac 用户，那么你很幸运，这份[指南](https://sourabhbajaj.com/mac-setup/) 将会手把手地带你搭建起整套开发环境。如果你是 Windows 用户，在开源社区的努力下，你同样可以获得与其他平台类似的体验：[Scoop](https://github.com/ScoopInstaller/Scoop)。
 
-## 包管理
+### 包管理
 
 首先我们需要了解一个概念——包管理，在环境配置中使用包管理工具可以极大程度地减少可能会出现的问题，
 
@@ -62,7 +62,7 @@
     包管理工具是用于自动安装、升级、配置和移除软件包的系统。在不同的操作系统上，包管理工具可以帮助用户更方便地管理软件依赖和版本，大大简化了软件的安装和维护过程。
 
 下面是Windows和Macos常用的包管理工具的安装教程
-### Homebrew(Macos)
+#### Homebrew(Macos)
 
 [官网](https://brew.sh)
 
@@ -82,7 +82,7 @@
 
 安装方法是一样的，但这个版本是国人制作的更适合中国宝宝体质的homebrew安装脚本，会自动配置好镜像源（如果你不知道镜像源这个概念，可以自行Google一下）。
 
-### Scoop(Windows)
+#### Scoop(Windows)
 
 [官方文档](https://github.com/ScoopInstaller/Scoop)
 
