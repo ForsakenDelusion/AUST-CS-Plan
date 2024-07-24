@@ -44,3 +44,77 @@
 ### VPN
 你要是能打开这里所有的link，大抵是没问题的～
 如果有问题，请自行Google~
+
+## 环境配置
+
+个人看来，环境配置是计算机初学者很容易忽略的一个部分，但环境却至关重要，有很多问题其实都源自环境。
+
+如果你的Windows用户，在所有的工作开始之前，必须强调一点非常重要的事情，在设置**Windows用户名**的时候，一定要设置成**英文**,因为中文经常会出现一些奇怪的错误，同理在安装一些软件的时候，目录最好也要是中文。
+
+
+如果你是 Mac 用户，那么你很幸运，这份[指南](https://sourabhbajaj.com/mac-setup/) 将会手把手地带你搭建起整套开发环境。如果你是 Windows 用户，在开源社区的努力下，你同样可以获得与其他平台类似的体验：[Scoop](https://github.com/ScoopInstaller/Scoop)。
+
+## 包管理
+
+首先我们需要了解一个概念——包管理，在环境配置中使用包管理工具可以极大程度地减少可能会出现的问题，
+
+??? note 那么什么是包管理呢？
+    包管理工具是用于自动安装、升级、配置和移除软件包的系统。在不同的操作系统上，包管理工具可以帮助用户更方便地管理软件依赖和版本，大大简化了软件的安装和维护过程。
+
+下面是Windows和Macos常用的包管理工具的安装教程
+### Homebrew(Macos)
+
+[官网](https://brew.sh)
+
+只需要打开你的终端，输入
+
+```shell
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+
+脚本就会自动执行安装配置
+
+以上时官网提供的安装教程，但是对于处在国内网络环境下的我们，还有一种更便捷的方法，感谢这个[本地化仓库](https://github.com/cunkai/HomebrewCN)
+
+```shell
+/bin/zsh -c "$(curl -fsSL https://gitee.com/cunkai/HomebrewCN/raw/master/Homebrew.sh)"
+```
+
+安装方法是一样的，但这个版本是国人制作的更适合中国宝宝体质的homebrew安装脚本，会自动配置好镜像源（如果你不知道镜像源这个概念，可以自行Google一下）。
+
+### Scoop(Windows)
+
+[官方文档](https://github.com/ScoopInstaller/Scoop)
+
+Scoop 需要 [Windows PowerShell 5.1](https://aka.ms/wmf5download) 或者 [PowerShell](https://aka.ms/powershell) 作为运行环境，如果你使用的是 Windows 10 及以上版本，Windows PowerShell 是内置在系统中的。而 Windows 7 内置的 Windows PowerShell 版本过于陈旧，你需要手动安装新版本的 PowerShell。
+
+> 由于发现很多同学在设置 Windows 用户时使用了中文用户名，导致了用户目录也变成了中文名。如果按照 Scoop 的默认方式将软件安装到用户目录下，可能会造成部分软件执行错误。所以这里推荐安装到自定义目录，如果需要其他安装方式请参考： [ScoopInstaller/Install](https://github.com/ScoopInstaller/Install)
+
+```powershell
+# 设置 PowerShell 执行策略
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+# 下载安装脚本
+irm get.scoop.sh -outfile 'install.ps1'
+# 执行安装, --ScoopDir 参数指定 Scoop 安装路径
+.\install.ps1 -ScoopDir 'C:\Scoop'
+```
+
+这么说你可能还是理解不了，那么我们来举个例子好了。正常情况下，你想要允许java，就得有java环境。如果你不知道包管理工具的话，你需要去下载java安装器，安装好了还需要去配置系统环境，非常的麻烦，有了包管理工具的话只需要打开你的shell，输入一行命令就好了
+
+在Macos中
+```shell
+brew install openjdk
+```
+
+Windows
+```shell
+scoop install openjdk
+```
+
+如果你想了解更多，也请自行Google一下。
+
+### 结尾
+
+环境配置堪称“环境科学”，配置环境通常是令人最烦的事情，~~被折磨多了也就会配了~~这里鼓励大家多动手去配置环境，多多利用搜索引擎去解决问题，你遇到的问题百分之九十九都有解决方案，网络上也有数不清的博客可以参考。
+
+>来自Delusion:在学习初期，如果你不想让乱七八糟的开发环境充斥着你的电脑，可以试试先用虚拟机开发，等到熟练之后再将本地也配上环境也是没问题的。
