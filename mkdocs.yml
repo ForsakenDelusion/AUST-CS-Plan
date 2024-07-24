@@ -79,8 +79,9 @@ nav:
       - 数据结构与算法:
         - "CS61B: Data Structures and Algorithms": "计算机科学学习路线/计算机基础/数据结构与算法/UCBCS61B.md"
         - LeetCode: "计算机科学学习路线/计算机基础/数据结构与算法/LeetCode.md"
-  - Python: "python/introduction_python.md"
+  
   - 不同领域的学习路线:
     - Java:
       - 路线总览: "不同领域的学习路线/Java/java_learning_path.md"
       - JavaSE基础: "不同领域的学习路线/Java/javaSE.md"
+    - Python: "不同领域的学习路线/python/introduction_python.md"
