@@ -67,7 +67,7 @@ theme:
 nav:
   - 前言&使用指南: "index.md"
   - 关于我们: "aboutus.md"
-  - 资源分享
+  - 资源分享:
     - 书籍: "资源分享/book.md"
     - 网站: "资源分享/website.md"
   - 计算机科学学习路线: 
