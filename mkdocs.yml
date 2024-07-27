@@ -82,6 +82,10 @@ nav:
       - 数据结构与算法:
         - "CS61B: Data Structures and Algorithms": "计算机科学学习路线/计算机基础/数据结构与算法/UCBCS61B.md"
         - LeetCode: "计算机科学学习路线/计算机基础/数据结构与算法/LeetCode.md"
+      - 计算机体系结构:
+        - "CSCI 0300": "计算机科学学习路线/计算机基础/计算机体系结构/CS0300.md"
+        - "CMU 15-213": "计算机科学学习路线/计算机基础/计算机体系结构/15213.md"
+        - "CS61C:Great Ideas in Computer Architecture": "计算机科学学习路线/计算机基础/计算机体系结构/USBCS61C.md"
   
   - 不同领域的学习路线:
     - Java:
