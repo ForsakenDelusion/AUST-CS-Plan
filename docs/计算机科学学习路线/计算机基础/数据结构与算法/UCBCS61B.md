@@ -1,11 +1,5 @@
 # CS 61B Data Structures
 
-
-
-以下内容选自[cs-plan](https://cs-plan.com)(感谢),并修改了少部分内容
-
-
-
 - 开设学校：UC Berkeley
 
 - 涉及语言：JAVA
@@ -130,3 +124,7 @@ Ps.这门课Paul Hill finger 也教过（而且比较难）
 -  2021Spring的lab较少，可以结合着学期其他学期的lab/project，2022Fall的内容不对外开放
 -  2022Spring并没有发放邀请码，但有朋友将其与Gradescope的所有测试爬入本地，你可以在Github找到它
 - [CS61B结课笔记，感想，以及资源 b站的专栏--降星驰 ](https://www.bilibili.com/read/cv18985812)
+
+---
+
+以上内容选自[cs-plan](https://cs-plan.com)(感谢),并修改了少部分内容

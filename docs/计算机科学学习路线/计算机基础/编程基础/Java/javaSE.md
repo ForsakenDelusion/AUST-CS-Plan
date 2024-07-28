@@ -1,5 +1,3 @@
-以下内容选自[OI Wiki](https://oi-wiki.org)(感谢)
-
 ## 关于 Java
 
 Java 是一种广泛使用的计算机编程语言，拥有 **跨平台**、**面向对象**、**泛型编程** 的特性，广泛应用于企业级 Web 应用开发和移动应用开发。
@@ -1945,3 +1943,7 @@ public class Main {
 ## 参考资料
 
 [^ref1]: [Input & Output - USACO Guide](https://usaco.guide/general/input-output?lang=java#method-3---io-template)
+
+---
+
+以上内容选自[OI Wiki](https://oi-wiki.org)(感谢)

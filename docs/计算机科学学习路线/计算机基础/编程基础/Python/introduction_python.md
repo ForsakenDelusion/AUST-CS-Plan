@@ -1041,3 +1041,7 @@ def fib(n):
 [^ref1]: [2. Python 解释器—Python 3 文档](https://docs.python.org/zh-cn/3/tutorial/interpreter.html#id1)
 
 [^ref2]: [Unicode 指南—Python 3 文档](https://docs.python.org/zh-cn/3/howto/unicode.html#the-string-type)
+
+---
+
+以上内容选自[OI Wiki](https://oi-wiki.org)(感谢)
