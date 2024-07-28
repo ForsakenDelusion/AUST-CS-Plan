@@ -1,7 +1,5 @@
 # MIT 6.092: Introduction To Programming In Java
 
-以下内容选自[csdiy](csdiy.wiki)(感谢)
-
 ## 课程简介
 
 - 所属大学：MIT
@@ -33,3 +31,7 @@ Lab 的 Assignment 倒不是很难，很多前一节课的 Assignment 后一节�
 @SinanTang 在学习这门课中用到的所有资源和作业实现都汇总在 [SinanTang/MIT6092-Introduction-to-Programming-in-Java_problem-sets - GitHub](https://github.com/SinanTang/MIT6092-Introduction-to-Programming-in-Java_problem-sets) 中。
 
 @sirrice 在学习这门课中用到的所有资源和作业实现都汇总在 [sirrice/6092 - GitHub](https://github.com/sirrice/6092) 中。
+
+---
+
+以上内容选自[csdiy](csdiy.wiki)(感谢)

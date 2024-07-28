@@ -1,7 +1,5 @@
 # CS 61C: Great Ideas in Computer Architecture (Machine Structures)
 
-以下内容选自[cs-plan](https://cs-plan.com)(感谢)
-
 - 开设学校：UC Berkeley
 - 涉及语言：C, RISC-V
 - 课程页面：[CS61C](https://cs61c.org/)
@@ -30,3 +28,7 @@
   - 虽然CSAPP这本书部分内容有在15-213、61C中出现，但不代表不用阅读CSAPP这本书，相反，我认为阅读完CSAPP很有必要
   - 综上，其实我更加推荐这样的学习61C后，阅读完CSAPP(也可以一起看)，如果有充足的时间，可以学习[CSCI0300](BrownCS0300.md)
 - 在学习完61C后，还可以趁热学习[EECS151](https://inst.eecs.berkeley.edu/~eecs151/)
+
+---
+
+以上内容选自[cs-plan](https://cs-plan.com)(感谢)

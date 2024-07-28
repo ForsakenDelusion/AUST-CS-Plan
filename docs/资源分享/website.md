@@ -99,3 +99,7 @@
 - [Awesome C++](https://cpp.libhunt.com/): 很棒的 C/C++ 框架、库、资源精选列表。
 - [HelloGitHub](https://hellogithub.com/): 分享 GitHub 上有趣、入门级的开源项目。
 - [Synergy](https://github.com/DEAKSoftware/Synergy-Binaries): 一套键鼠能控制多台电脑。
+
+---
+
+以上内容选自[csdiy](https://csdiy.wiki)(感谢)
