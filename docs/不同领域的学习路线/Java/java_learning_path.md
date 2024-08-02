@@ -17,12 +17,19 @@
 
         非零基础视频教程推荐：[极客时间java教程](https://time.geekbang.org/course/intro/100027801?tab=comment)
 
-    - 本阶段结业项目：[手写服务器httpserver](https://pan.baidu.com/s/1jNYMVXbUjBf4zgFjiQ8kOg?pwd=2bye#list/path=%2F)
+    - 本阶段结业项目：[手写服务器httpserver](https://www.bilibili.com/video/BV1UN411x7xe?p=1&vd_source=a050735bf251f44101103e1314e38fe9)
 
     - Optional 深入学习： [解析Java源码](https://coding.imooc.com/class/621.html)
     
 - 数据库
 - JavaWeb
+
+    - [尚硅谷JavaWeb2023](https://www.bilibili.com/video/BV1UN411x7xe/?p=5&spm_id_from=333.1007.top_right_bar_window_history.content.click&vd_source=a050735bf251f44101103e1314e38fe9)讲得很细，比较推荐。
+
+    - [黑马JavaWeb2023](https://www.bilibili.com/video/BV1m84y1w7Tb?p=1&vd_source=a050735bf251f44101103e1314e38fe9)针对想快速了解企业开发流程的同学们，涵盖Spring，Mybatis，SpringMVC，SpringBoot3等内容，且时常只有40小时，缺点是Web内容讲的并不是特别详细
+
+    - [青空的JavaWeb2024](https://www.bilibili.com/video/BV1kS421X7rq/?spm_id_from=333.788.top_right_bar_window_history.content.click)2024重制版，本篇文章撰写时还没更新完。
+
 - web框架
 - 单体项目实战
 - 中间件
