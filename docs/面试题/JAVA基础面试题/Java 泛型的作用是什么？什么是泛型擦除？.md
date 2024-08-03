@@ -6,12 +6,12 @@
 
 不过这个擦除有个细节，我们来看下代码就很清晰了，代码如下：
 
-<img src="https://pic.code-nav.cn/mianshiya/question_picture/1783397053004488705/image-20210228112554862_mianshiya.png" alt="image-20210228112554862.png" width="522px" />
+![](images/java_T1.png)
 
 然后我们再来看看编译后的 class 文件。
 
 
-<img src="https://pic.code-nav.cn/mianshiya/question_picture/1783397053004488705/image-20210228112610761_mianshiya.png" alt="image-20210228112610761.png" width="100%" />
+![](images/java_T2.png)
 
 以看到 yess 是有类型信息的，所以在代码里写死的泛型类型是不会被擦除的！
 
