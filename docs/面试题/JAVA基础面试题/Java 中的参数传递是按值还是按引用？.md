@@ -6,5 +6,4 @@ JVM 内存有划分为栈和堆，局部变量和方法参数是在栈上分配�
 
 而对象所占的空间是在堆中开辟的，引用类型变量存储对象在堆中地址来访问对象，所以传递的时候可以理解为把变量存储的地址给传递过去，因此引用类型也是值传递。
 
-
-![企业微信截图_410280b2-919d-4e4d-953e-fd8350f95a99.png](https://pic.code-nav.cn/mianshiya/question_picture/1772087337535152129/4VszJ2DN_410280b2-919d-4e4d-953e-fd8350f95a99_mianshiya.png)
+![](images/java_value_transform.png)

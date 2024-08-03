@@ -14,14 +14,31 @@
 
 像常见的：
 
-
-![image-20210228112243058.png](https://pic.code-nav.cn/mianshiya/question_picture/1783397053004488705/image-20210228112243058_mianshiya.png)
+```java
+@Target(ElEMENT_TYPE.METHOD)
+@Retention(RetentionPolicy.RUNTIME
+    public @interface Override {
+    }
+)
+```
 
 就是给编译器用的，编译器编译的时候检查没问题就over了，class文件里面不会有 Override 这个标记。
 
 再比如 Spring 常见的 Autowired ，就是 RUNTIME 的，所以**在运行的时候可以通过反射得到注解的信息**，还能拿到标记的值 required 。
 
 
-![image-20210228112312107.png](https://pic.code-nav.cn/mianshiya/question_picture/1783397053004488705/image-20210228112312107_mianshiya.png)
+```java
+@Target(ElementType.CONSTRUCTOR,ElementType.FIELD,ElementType.METHOD,ElementType.PARAMETER,ElementType.TYPE)
+@Retention(RetentionPolicy.RUNTIME)
+@Documented
+public @interface Autowired {
+    boolean required() default true;
+}
+```
+
+所以注解的原理就是编译器在编译的时候会解析注解，然后根据注解的不同类型做不同的处理，解析注解就是解析注解里面的值，然后根据这些值做一些处理。
+
+比如 Spring 在运行的时候就可以通过反射得到注解的信息，然后根据注解的值做一些依赖注入的操作。
+```
 
 所以注解就是一个标记，可以给编译器用、也能运行时候用。
