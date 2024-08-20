@@ -39,6 +39,7 @@ theme:
     - header.autohide
     - navigation.tracking
     - navigation.top
+    - navigation.tabs
     - navigation.instant
     - navigation.sections
     - search.highlight
