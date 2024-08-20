@@ -42,7 +42,7 @@ theme:
     - navigation.indexes
     - navigation.tabs
     - navigation.instant
-   #- navigation.sections
+    - navigation.sections
     - search.highlight
     - search.share
     - search.suggest
