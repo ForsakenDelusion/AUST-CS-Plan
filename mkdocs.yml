@@ -72,7 +72,14 @@ nav:
     - 网站: "资源分享/website.md"
   - 计算机科学学习路线: 
     - CS基础:
-      - 先修内容: "计算机科学学习路线/计算机基础/工具/index.md"
+      - 先修内容: "计算机科学学习路线/计算机基础/先修内容/index.md"
+        - 如何解决问题: "计算机科学学习路线/计算机基础/先修内容/meet-problems.md"
+        - VSCode配置: "计算机科学学习路线/计算机基础/先修内容/vscode.md"
+        - Git入门: "计算机科学学习路线/计算机基础/先修内容/git.md"
+        - Linux入门: "计算机科学学习路线/计算机基础/先修内容/linux.md"
+        - Markdown入门: "计算机科学学习路线/计算机基础/先修内容/markdown.md"
+        - Latex入门: "计算机科学学习路线/计算机基础/先修内容/latex.md"
+        - Web基础: "计算机科学学习路线/计算机基础/先修内容/web.md"
       - 编程基础:
         - Python:
           - Python快速上手: "计算机科学学习路线/计算机基础/编程基础/Python/introduction_python.md"
