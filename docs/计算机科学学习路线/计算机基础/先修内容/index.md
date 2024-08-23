@@ -43,7 +43,9 @@
 
 ### VPN
 
-～～自行Google～～因为没有vpn你甚至无法Google，所以可以试试用Bing了解相关信息，本指南不提供科学上网教材（报名
+～～自行Google～～因为没有vpn你甚至无法Google，所以可以试试用Bing了解相关信息，本指南不提供科学上网教程（ 以下网址纯属凑巧由各个字母组合而成
+
+https://github.com/selierlin/Share-SSR-V2ray/blob/master/1-share-ssr-v2ray.md
 
 ## 环境配置
 
